@@ -1,0 +1,31 @@
+{
+  "name": "front-end-prep",
+  "version": "1.0.0",
+  "description": "Ace the Front End Interview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "serve": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/judearasu/front-end-prep.git"
+  },
+  "keywords": [
+    "frontend",
+    "interviews"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/judearasu/front-end-prep/issues"
+  },
+  "homepage": "https://github.com/judearasu/front-end-prep#readme",
+  "devDependencies": {
+    "http-server": "^14.0.0",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
+}
