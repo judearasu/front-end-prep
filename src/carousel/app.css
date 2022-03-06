@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1024px;
+  margin: 10px auto;
+}
+.photo-ctn {
+  display: flex;
+}
+
+.photo-list {
+  max-height: 150px;
+  max-width: 600px;
+  min-width: 300px;
+  box-sizing: border-box;
+  display: flex;
+  overflow: hidden;
+}
+
+.photo-ctrls {
+  min-width: 50px;
+  max-width: 100px;
+}
+
+.left,
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active {
+  display: block;
+}
+.inactive {
+  display: none;
+}

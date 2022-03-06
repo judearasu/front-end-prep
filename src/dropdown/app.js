@@ -1,5 +1,4 @@
 window.addEventListener('DOMContentLoaded', (event) => {
-    console.log('dom fully loaded');
     let dropdown = document.querySelector('div#css-dropdown');
     dropdown.classList.add('hide');
 
