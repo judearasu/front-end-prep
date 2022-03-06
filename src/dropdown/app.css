@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+:root {
+  --main-color: hotpink;
+  --pane-padding: 5px 42px;
+  --bg-color: rgba(9, 30, 66, 0.04);
+  --link-color: #0052cc;
+  --txt-color: #fff;
+  --active-color: rgba(179, 212, 255, 0.6);
+}
+.dropdownlist {
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 1rem;
+}
+
+.css-btn {
+  background-color: var(--bg-color);
+  border: none;
+  padding: 10px;
+  color: var(--txt-color);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.css-btn:not(:active) {
+  background-color: var(--link-color);
+}
+
+.css-btn:active {
+  background-color: var(--active-color);
+}
+
+.css-popup-ctn {
+  background: white;
+  border-radius: 4px;
+  max-width: 440px;
+  min-width: 220px;
+  padding-top: 0.5rem;
+  max-height: 300px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  box-shadow: var(
+    --ds-overlay,
+    0 0 0 1px rgba(9, 30, 66, 0.13),
+    0 4px 11px rgba(9, 30, 66, 0.13)
+  );
+}
+
+.css-popup-select {
+  pointer-events: all;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+/* .option {
+  background-color: var(--ds-background-transparentNeutral-hover, #f4f5f7);
+  color: var(--ds-text-highEmphasis, #172b4d);
+  display: block;
+  font-size: inherit;
+  padding: 6px 12px;
+  width: 100%;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+}
+
+.option:active {
+  background-color: var(--ds-background-transparentNeutral-pressed, #ebecf0);
+} */
