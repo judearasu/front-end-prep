@@ -4,7 +4,7 @@ Ace the Front End Interview
 
 ## Apps
 
-| Plugin       | README                  |
+| NAME         | PATH                    |
 | ------------ | ----------------------- |
 | Carousel     | [src/carousel][plc]     |
 | QuoteMachine | [src/quotemachine][plq] |
