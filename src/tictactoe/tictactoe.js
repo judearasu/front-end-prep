@@ -134,6 +134,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
     reset = (event) => {
         if (event) {
+            play_board = new Array(9).fill("");
+            isGameActive = true;
             renderBoard();
         }
     }
